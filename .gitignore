@@ -1,0 +1,28 @@
+# Rust build output
+/target/
+
+# Compiled application and debug artifacts
+/*.exe
+/*.pdb
+/*.dll
+/*.dll.a
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example

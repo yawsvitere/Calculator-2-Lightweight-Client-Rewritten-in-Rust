@@ -1,0 +1,11 @@
+﻿[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.31"
+rodio = { version = "0.20", default-features = false, features = ["symphonia-mp3"] }
+
+[profile.release]
+opt-level = 3
